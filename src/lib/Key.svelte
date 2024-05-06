@@ -14,7 +14,7 @@
     text-white
     select-none
     {spanDouble ? 'col-span-2' : ''}
-    {style == 'function' ? 'bg-slate-700 active:bg-slate-400' : ''}
+    {style == 'function' ? 'bg-slate-700 active:bg-slate-500' : ''}
     {style == 'number' ? 'bg-slate-600 active:bg-slate-400' : ''}
     {style == 'operator' ? 'bg-orange-500' : ''}
     {style == 'current' ? 'bg-orange-600' : ''}
