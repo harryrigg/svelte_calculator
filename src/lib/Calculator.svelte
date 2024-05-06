@@ -67,10 +67,10 @@
       currentOp = '';
     } else if (key == '=') {
       if (lastRhs != null && lastOp != null) {
-        // Normal calculation
+        // Redo last calculation
         currentVal = opFunc(lastOp, currentVal, lastRhs);
       } else if (prevVal != null) {
-        // Redo last calculation
+        // Normal calculation
         lastRhs = currentVal;
         lastOp = currentOp;
         currentVal = opFunc(currentOp, prevVal, currentVal);
