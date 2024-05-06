@@ -11,7 +11,7 @@
 <button
   class="
     grid place-items-center
-  text-white
+    text-white
     select-none
     {spanDouble ? 'col-span-2' : ''}
     {style == 'function' ? 'bg-slate-700' : ''}
