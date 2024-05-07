@@ -93,14 +93,7 @@
     }
   }
 
-  $: displayValue = calcDisplayValue(decimalMode, currentVal);
-  function calcDisplayValue(decimalMode: boolean, currentVal: number) {
-    if (decimalMode) {
-      return currentVal + '.';
-    } else {
-      return currentVal + '';
-    }
-  }
+  $: displayValue = decimalMode ? currentVal + '.' : currentVal + '';
 </script>
 
 <div
