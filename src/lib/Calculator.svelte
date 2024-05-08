@@ -98,7 +98,7 @@
 
 <div
   class="
-    grid grid-rows-5 grid-cols-1 gap-[1px]
+    grid grid-rows-[1fr_4fr] gap-[1px]
     w-[calc(min(340px,100vw))] h-[calc(min(450px,100vh))]
     bg-zinc-800
     border rounded-md border-zinc-500 overflow-hidden

@@ -31,7 +31,7 @@
 
 <svelte:window on:keydown|preventDefault={onKeydown} />
 
-<div class="row-span-4 grid grid-rows-5 grid-cols-4 gap-[1px]">
+<div class="grid grid-rows-5 grid-cols-4 gap-[1px]">
   <Key key="AC" style="function" on:click />
   <Key key="±" style="function" on:click />
   <Key key="%" style="function" on:click />
